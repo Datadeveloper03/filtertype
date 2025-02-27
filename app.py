@@ -5,9 +5,9 @@ import joblib
 import plotly.express as px
 
 # Load trained model and preprocessing tools safely
-model_path = "models\filter_recommendation_model.pkl"
-scaler_path = "models\scaler.pkl"
-encoder_path = "models\label_encoder.pkl"
+model_path = "models/filter_recommendation_model.pkl"
+scaler_path = "models/scaler.pkl"
+encoder_path = "models/label_encoder.pkl"
 
 # Try loading the model and scaler
 try:
