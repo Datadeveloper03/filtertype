@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, classification_report
 import joblib
 
 # Define file paths
-data_path = r"C:\Users\Lenovo\Downloads\hacksindia\mining_emissions_data.csv"
+data_path = "mining_emissions_data.csv"
 models_dir = "models"
 
 # Ensure the 'models' directory exists
